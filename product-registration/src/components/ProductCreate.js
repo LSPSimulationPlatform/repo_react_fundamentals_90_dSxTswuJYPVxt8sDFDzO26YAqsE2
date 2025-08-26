@@ -1,4 +1,4 @@
-  import React, { useState } from "react"; // Import React and useState hook for state management
+    import React, { useState } from "react"; // Import React and useState hook for state management
 
 // Define the ProductCreatePage component which receives two props:
 // onAddProduct - function to add a product to the shared list
@@ -40,7 +40,7 @@ function ProductCreate({ onAddProduct, onNavigate}) {
     alert("Product added successfully!");
 
     // Navigate to the product list page
-    // onNavigate("list");
+    onNavigate("list");
 
     // Clear all input fields by resetting state to initial values
     setProductName("");
